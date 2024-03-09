@@ -1,0 +1,30 @@
+#para{
+    background-color: black;
+    color: aqua;
+}
+body{
+    background: #ceb7b7;
+}
+.main{
+    background: #bfceb7;
+    text-align: justify;
+    /* justify adjust the words spacing and at the ends all are in same indent (left, right etc) */
+    font-family: 'lemon', arial;
+    border: 5px black;
+    border-style: double;
+/* T , R, B ,L order */
+/* margin outside border */
+/* padding is inside */
+    margin: 100px 20px 30px 40px ;
+    padding: 20px 30px 20px 30px ;
+}
+hr{
+    background: black;
+    height: 2px;
+}
+#image{
+    height: 400px;
+    width: auto;
+}
+/* float and box shadow  */
+/* what is flex */

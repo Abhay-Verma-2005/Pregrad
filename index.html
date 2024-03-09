@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    
+    <!-- INTERNAL CSS: STYLE TAG -->
+    <!-- PRIORITY : INLINE < INTERNAL < EXTERNAL -->
+    <style>
+      h1{
+      background-color: yellow;
+    }
+    .item{
+      background-color: rgb(187, 192, 194);
+    }
+    #item1{
+      color: rgb(212, 21, 21);
+    }
+    </style>
+    <!-- tag : <>   ,   class  : (.)   ,   id  :  #  (unique) -->
+  </head>
+  <body>
+    <h1 style="color: green">JANUARY BATCH</h1> <!-- INLINE CSS : STYLE USE AS ATTRIBUTE -->
+    <h2 style="color: red">JANUARY BATCH</h2>
+    <h3>JANUARY BATCH</h3>
+    <div class="main">
+    <h4>JANUARY BATCH</h4>
+    <p id="para">
+      The rock cycle is a continuous and dynamic geological process that
+      describes the transformation of rocks from one type to another over time.
+      It encompasses three main rock types: igneous, sedimentary, and
+      metamorphic. The cycle begins with the formation of igneous rocks through
+      the solidification of molten magma or lava. Over time, weathering and
+      erosion break down these rocks into sediment, leading to the creation of
+      sedimentary rocks through processes like compaction and cementation.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus inventore
+      quisquam nisi, fugit eaque velit odit porro aperiam dignissimos
+      perferendis. Aut vel voluptatibus non ab doloribus rerum exercitationem
+      debitis. Labore autem perferendis non aspernatur reiciendis odio? Magnam,
+      nulla cumque? Minima, maiores. Explicabo deleniti soluta voluptates
+      tenetur ab reprehenderit expedita, aliquam quia veniam rem perferendis
+      facere. Quibusdam, mollitia soluta alias quasi tempore perspiciatis.
+      Reiciendis, quia quod ipsa culpa ducimus minima voluptatem illum
+      necessitatibus eaque voluptas. A aspernatur unde voluptatum dolorem non.
+    </p>
+  </div>
+    <a href="https://google.com" target="_blank">Go to google</a>
+    <!--_blank for new tab-->
+    <button><a href="https://google.com" target="_blank">click</a></button>
+    <!--BUTTON TEXT IS A LINK-->
+    <a href="https://google.com" target="_blank">
+    <button>Google button</button> </a><!--WHOLE  BUTTON IS WORK-->
+    <br />
+    <img src="./flower.png" alt="flower" id="image"/>
+
+    <!--NOTE: ./ -- SAME FOLDER , ../ -- PREV FOLDER , IN FOLDER IN IT ITSELF /.   -->
+    <hr />
+    <form>
+      <!--action="" part of Back end-->
+      <label for="fname">First name : </label>
+      <input type="text" name="fname"> <br />
+      <!--Url encoding : input feed in url address-->
+      <label for="lname">Last name : </label>
+      <input type="text" name="lname"> <br />
+      <input type="submit"> &nbsp; <button type="submit">Submit</button>
+      <input type="radio">
+      <label for="date"> Date: </label>
+      <input type="date" name="date">
+    </form>
+    <div >
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>CONTACT</th>
+          <th>CLASS</th>
+        </tr>
+        <tr>
+          <th>NAME</th>
+          <th>CONTACT</th>
+          <th>CLASS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ABHAY</td>
+          <td>98765432345</td>
+          <td>12</td>
+        </tr>
+        
+        <tr>
+          <td>ABHAY</td>
+          <td>98765432345</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>ABHAY</td>
+          <td>98765432345</td>
+          <td>12</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <a href="./about.html">about</a>
+    <a href="./contact.html">contact</a>
+    <BR>
+      <ul>   <!-- Id for identifier for make unique : use in css class for whole :use in css-->
+        
+        <li class="item" id="item1">Item 1</li>
+        <li class="item" id="item2">Item 2</li>
+        <ol>
+        <li class="item" id="item1">Item 1</li>
+        <li class="item" id="item2">Item 2</li>
+        </ol>
+        <li class="item" id="item3">Item 3</li>
+        <li class="item" id="item4">Item 4</li>
+      </ul>
+  </body>
+  <!--  -->
+</html>
