@@ -3,7 +3,7 @@ var library = [
       author: 'Bill Gates',
       title: 'The Road Ahead',
       readingStatus: true,
-      price: 500
+      price: 400
     },
     {
       author: 'Steve Jobs',
@@ -23,3 +23,8 @@ var library = [
     listTit.push(ele.title);
   }
   console.log(listTit);
+  for (let ele of library){
+    if (ele.price >=500 && ele.price<=1000){
+        console.log(ele.author);
+    }
+}
